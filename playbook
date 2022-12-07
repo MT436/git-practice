@@ -1,0 +1,8 @@
+---
+-name: install https and activate
+ hosts: ALL
+ become: true
+ tasks:
+      -name: https download
+       yum: https
+       state= present
