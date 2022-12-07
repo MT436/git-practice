@@ -1,0 +1,11 @@
+FROM Ubuntu
+MAINTAINER
+Run apt install java -y
+ADD
+ENV
+COPY
+WORKDIR
+EXPOSE
+ENTRYPOINT
+CMD
+
