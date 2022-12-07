@@ -1,0 +1,23 @@
+pipeline {
+ agent any
+   
+   Stages {
+       Stage("CHECKOUT") {
+            Steps{
+                  
+            }
+         }
+ 
+      Stage(Build and Quaility test){
+            Steps {
+             
+            }
+         }
+     
+      Stage(Deploy){
+            Steps {
+
+            }
+         }
+     }
+}
